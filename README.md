@@ -35,21 +35,21 @@
 
 
 ## 7. Install packages:-
-    > a)From inside an active environment.
-    `(conda-env) % conda install pandas=0.24.1`
-    
-    > b)From your default shell.
-    `% conda install -n conda-env pandas=0.24.1      # Or -p /path/to/env`
+> a)From inside an active environment.
+`(conda-env) % conda install pandas=0.24.1`
+
+> b)From your default shell.
+`% conda install -n conda-env pandas=0.24.1      # Or -p /path/to/env`
 
 
 ## 8. Update Packages:-
-    > a) `(conda-env) % conda update pandas`
-    > b) `% conda update -n conda-env pandas             # Or -p /path/to/env`
+> a) `(conda-env) % conda update pandas`
+> b) `% conda update -n conda-env pandas             # Or -p /path/to/env`
 
 
 ## 9. List Packages:-
-    > a) `conda list`
-    > b) `% conda list -n conda-env                      # Or -p /path/to/env`
+> a) `conda list`
+> b) `% conda list -n conda-env                      # Or -p /path/to/env`
 
 
 ## 10. Install package from other conda repositories:-
@@ -68,9 +68,9 @@
 
 
 ## 13. Environment Files:-
-    > a) `(conda-env) % conda env export --file environment.yml       # Or -f`
-    > b) `% conda env export -n conda-env -f /path/to/environment.yml`
-> (This will generate environment files)
+> a) `(conda-env) % conda env export --file environment.yml       # Or -f`
+> b) `% conda env export -n conda-env -f /path/to/environment.yml`
+#### This will generate environment files
 
 
 ## 14. Duplicating Environments:-
