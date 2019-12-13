@@ -1,5 +1,6 @@
 # Getting started with conda package manager
 
+
 ## 1. Create environment:-
 `% conda create --name conda-env python                  # Or use -n`
 (goes in the /home/user/miniconda3/envs directory)
@@ -106,6 +107,7 @@
 
 
 
+
 # Bonus (Installation configuration with custom shell -> zsh)
 
 ## 1. Export Path:-
@@ -117,7 +119,10 @@
 
 
 
+
 # References
 ==========================
+
+
 https://towardsdatascience.com/a-guide-to-conda-environments-bc6180fc533
 https://stackoverflow.com/questions/31615322/zsh-conda-pip-installs-command-not-found
