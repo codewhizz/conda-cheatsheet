@@ -38,6 +38,10 @@
 ## 7. Install packages:-
 > a)From inside an active environment.
 `(conda-env) % conda install pandas=0.24.1`
+Set default channel to `conda-forge`\
+`conda config --add channels conda-forge`\
+`conda config --set channel_priority strict`\
+`conda install <package-name>`
 
 > b)From your default shell.
 `% conda install -n conda-env pandas=0.24.1      # Or -p /path/to/env`
